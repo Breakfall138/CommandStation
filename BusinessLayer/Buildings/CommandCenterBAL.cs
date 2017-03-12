@@ -16,7 +16,7 @@ namespace BusinessLayer.Buildings
             cc.name = name;
             cc.isDestroyed = false;
             cc.level = 1;
-            return cc;
+            return cc; 
         }
     }
 }
