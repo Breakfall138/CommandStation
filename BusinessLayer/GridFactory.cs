@@ -16,15 +16,18 @@ namespace BusinessLayer
                 case "Defense":
                     {
                         DefenseGrid Dgrid = new DefenseGrid();
+                        Block[,] blks = new Block[x, y];
                         for (int i = 0; i < x; i++)
                         {
                             for (int j = 0; j < y; j++)
                             {
                                 //set all blocks to empty, and no shots
-                                Dgrid.grid[i, j] = new Block(i, j);
+                                blks[i,j] = new Block(i, j);
+                                //Dgrid.grid[i, j] = new Block(i, j);
 
                             }
                         }
+                        Dgrid.grid = blks;
                         return Dgrid;
                     }
                 case "Offense":

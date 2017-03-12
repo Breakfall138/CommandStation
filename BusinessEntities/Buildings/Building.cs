@@ -9,11 +9,16 @@ namespace BusinessEntities
 {
     public abstract class Building
     {
+        //stores a value for 1 if destroyed, and 0 if not destroyed
         public bool isDestroyed { get; set; }
+        // stores the name of the building
         public string name { get;  set; }
-       // public Block[] Structure;
-        public IResource cost { get; set; }
+        //stores the amount it costs to purchase the building
+        public List<IResource> cost { get; set; }
+        //stores the current level of the building
         public int level { get; set; }
+        // store the GUID of the Building
+        public Guid ID = Guid.NewGuid();
 
         public Building()
         {
@@ -23,7 +28,7 @@ namespace BusinessEntities
             //        SetupBlock(Structure[i]);
             //}
         }
-        public abstract void Build(string name);
+       // public abstract void Build(string name);
 
         //private Block SetupBlock(Block blk)
         //{

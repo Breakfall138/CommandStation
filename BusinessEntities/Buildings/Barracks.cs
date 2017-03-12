@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-   public class DefenseGrid : Grid
+    public class Barracks : Building
     {
-        //public DefenseGrid(int x, int y):base(x,y)
-        //{
-        //}
-        public DefenseGrid() : base() { }
+        //stores the number of people that are added
+        public  int numPeople { get; set; } 
     }
 }
