@@ -21,6 +21,8 @@ namespace BusinessLayer
                 case "SatCom": { return new SatCom(); }
                 case "ShieldStation": { return new ShieldStation(); }
                 case "Barracks": { return new Barracks(); }
+                case "Mine" { return new Mine(); }
+                    case "CommandCenter" { return new CommandCenter(); }
                 default: { throw new Exception("Building Type  incorrect. "); }
             }
             

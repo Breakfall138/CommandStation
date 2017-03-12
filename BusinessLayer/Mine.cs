@@ -12,13 +12,11 @@ namespace BusinessLayer
 
         public override void Build(string name)
         {
-            //base.Structure = area;
-            //base.cost = new Ore(200);
-            //base.name = "Artillery";
-            //base.isDestroyed = false;
-            //base.level = 1;
-            //numShots = 2;
-            //maxShots = 2;
+            base.cost = new Ore(200);
+            base.name = "Artillery";
+            base.isDestroyed = false;
+            base.level = 1;
+
         }
     }
 }
