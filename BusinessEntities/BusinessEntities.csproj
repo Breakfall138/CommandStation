@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Building.cs" />
     <Compile Include="DefenseGrid.cs" />
+    <Compile Include="Gold.cs" />
     <Compile Include="GoldVein.cs" />
     <Compile Include="Grass.cs" />
     <Compile Include="Grid.cs" />

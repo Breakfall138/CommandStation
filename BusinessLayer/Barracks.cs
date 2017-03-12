@@ -20,6 +20,7 @@ namespace BusinessLayer
 
         public override void Build(string name)
         {
+            base.cost = new List<IResource>();
             base.cost = new Ore(200);
             base.name = "Barracks";
             base.isDestroyed = false;

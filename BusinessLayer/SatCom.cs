@@ -19,11 +19,11 @@ namespace BusinessLayer
 
         public override void Build(string name)
         {
-            base.cost = new Ore(200);
-            base.name = "Artillery";
+            base.cost = new List<IResource>();
+            base.cost.Add(new Ore(200));
+            base.name = name;
             base.isDestroyed = false;
             base.level = 1;
-
         }
     }
 }

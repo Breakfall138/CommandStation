@@ -17,6 +17,8 @@ namespace BusinessEntities
         public List<IResource> cost { get; set; }
         //stores the current level of the building
         public int level { get; set; }
+        // store the GUID of the Building
+        public Guid ID { get; set; }
 
         public Building()
         {
