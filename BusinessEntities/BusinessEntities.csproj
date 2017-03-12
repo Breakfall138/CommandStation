@@ -51,6 +51,7 @@
     <Compile Include="Buildings\ShieldStation.cs" />
     <Compile Include="Grids\DefenseGrid.cs" />
     <Compile Include="Resources\Gold.cs" />
+    <Compile Include="Sprite.cs" />
     <Compile Include="Terrian\GoldVein.cs" />
     <Compile Include="Terrian\Grass.cs" />
     <Compile Include="Grids\Grid.cs" />
