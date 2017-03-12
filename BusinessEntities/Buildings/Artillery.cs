@@ -12,16 +12,5 @@ namespace BusinessEntities
         public int numShots;
         //stores the maximum number of shots
         public int maxShots; 
-
-        //public override void Build(string name)
-        //{
-        //    base.cost = new List<IResource>();
-        //    base.cost.Add(new Ore(200));
-        //    base.name = name;
-        //    base.isDestroyed = false;
-        //    base.level = 1;
-        //    numShots = 2;
-        //    maxShots = 2;
-        //}
     }
 }

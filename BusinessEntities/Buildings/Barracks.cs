@@ -9,15 +9,6 @@ namespace BusinessEntities
     public class Barracks : Building
     {
         //stores the number of people that are added
-       public  int numPeople { get; set; } 
-
-        public Barracks()
-        {
-          
-            
-        }
-
- 
-
+        public  int numPeople { get; set; } 
     }
 }
