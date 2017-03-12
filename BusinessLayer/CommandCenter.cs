@@ -7,7 +7,7 @@ using BusinessEntities;
 
 namespace BusinessLayer
 {
-    class CommandCenter : Building
+    public class CommandCenter : Building
     {
 
     }

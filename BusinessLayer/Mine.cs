@@ -7,7 +7,7 @@ using BusinessEntities;
 
 namespace BusinessLayer
 {
-    class Mine : Building
+    public class Mine : Building
     {
         //stores the value of the number of current soldiers in the building
         int soliersManned { get; set; }
