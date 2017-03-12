@@ -7,7 +7,7 @@ using BusinessEntities;
 
 namespace BusinessLayer
 {
-    class SatCom : Building
+    public class SatCom : Building
     {
         //stores the value of the number of current soldiers in the building
         int soliersManned { get; set; }
@@ -17,13 +17,6 @@ namespace BusinessLayer
         int numBlocksRevealed { get; set; }
 
 
-        public override void Build(string name)
-        {
-            base.cost = new Ore(200);
-            base.name = "Artillery";
-            base.isDestroyed = false;
-            base.level = 1;
 
-        }
     }
 }

@@ -26,7 +26,7 @@ namespace BusinessEntities
             //        SetupBlock(Structure[i]);
             //}
         }
-        public abstract void Build(string name);
+       // public abstract void Build(string name);
 
         //private Block SetupBlock(Block blk)
         //{

@@ -1,4 +1,5 @@
 ﻿using BusinessEntities;
+using BusinessLayer.Buildings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer
 {
-    class BuildingFactory
+   public class BuildingFactory
     {
         public BuildingFactory(){}
 
@@ -18,44 +19,37 @@ namespace BusinessLayer
             {
                 case "Artillery":
                     {
-                        Artillery art = new Artillery();
-                        art.Build(name);
-                        return art;
+                        ArtilleryBAL art = new ArtilleryBAL();
+                        return art.Build(name);
                     }
                 case "RepairShop":
                     {
-
-                        RepairShop rs = new RepairShop();
-                        rs.Build(name);
-                        return rs;
+                        RepairShopBAL rs = new RepairShopBAL();
+                        return rs.Build(name);
                     }
                 case "SatCom":
                     {
-                        SatCom sc = new SatCom();
-                        sc.Build(name);
-                        return sc;
+                        SatComBAL sc = new SatComBAL();
+                        return sc.Build(name);
                     }
                 case "ShieldStation":
                     {
-                        ShieldStation ss = new ShieldStation();
-                        ss.Build(name);
-                        return ss;
+                        ShieldStationBAL ss = new ShieldStationBAL();
+                        return ss.Build(name);
                     }
-                case "Barracks": { Barracks bar = new Barracks();
-                        bar.Build(name);
-                        return bar;
+                case "Barracks": {
+                        BarracksBAL bar = new BarracksBAL();
+                        return bar.Build(name);
                     }
                 case "Mine":
                     {
-                        Mine mine = new Mine();
-                        mine.Build(name);
-                        return mine;
+                        MineBAL mine = new MineBAL();
+                        return mine.Build(name);
                     }
                 case "CommandCenter":
                     {
-                        CommandCenter cc = new CommandCenter();
-                        cc.Build(name);
-                        return cc;
+                        CommandCenterBAL cc = new CommandCenterBAL();
+                        return cc.Build(name);
                     }
                 default: {
                         //NEED TO ADD Logging here

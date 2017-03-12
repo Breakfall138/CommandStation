@@ -10,7 +10,7 @@ namespace BusinessLayer
     public class Barracks : Building
     {
         //stores the number of people that are added
-        int numPeople { get; set; } 
+       public  int numPeople { get; set; } 
 
         public Barracks()
         {
@@ -18,15 +18,7 @@ namespace BusinessLayer
             
         }
 
-        public override void Build(string name)
-        {
-            base.cost = new Ore(200);
-            base.name = "Barracks";
-            base.isDestroyed = false;
-            base.level = 1;
-            numPeople = 2;
-            
-        }
+ 
 
     }
 }

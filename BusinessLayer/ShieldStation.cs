@@ -7,21 +7,12 @@ using BusinessEntities;
 
 namespace BusinessLayer
 {
-    class ShieldStation : Building
+    public class ShieldStation : Building
     {
         //number of blocks that can be protected
-        int maxBlocksProtected { get; set; }
+        public int maxBlocksProtected { get; set; }
         //holds a list of coordinates to the protected blocks. 
-        List<Coordinates> blocksProtected = new List<Coordinates>(); 
+        public List<Coordinates> blocksProtected = new List<Coordinates>(); 
 
-        public override void Build(string name)
-        {
-            base.cost = new Ore(200);
-            base.name = "Shield Station";
-            base.isDestroyed = false;
-            base.level = 1;
-            maxBlocksProtected = 2;
-
-        }
     }
 }

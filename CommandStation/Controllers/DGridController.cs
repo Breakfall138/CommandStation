@@ -15,10 +15,9 @@ namespace CommandStation.Controllers
         public DefenseGrid GET()
         {
             DefenseGrid dg = new GridFactory().Create("Defense",15, 15) as DefenseGrid;
-            Artillery art = new Artillery();
+            BuildingFactory art = new BuildingFactory();
             Block blks = dg.grid[5, 5];
-            art.Build("Art1");
-            blks.building = art;
+            blks.building = art.Create("Artillery","Art1");
             blks.state = State.Healthy;
             return dg;
         }

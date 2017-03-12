@@ -14,12 +14,6 @@ namespace BusinessLayer
         //stores the value of the number of maximum soldiers in the building
         int maxSoldiersManned { get; set; }
 
-        public override void Build(string name)
-        {
-            base.cost = new Ore(200);
-            base.name = "Repair Shop";
-            base.isDestroyed = false;
-            base.level = 1;
-        }
+
     }
 }

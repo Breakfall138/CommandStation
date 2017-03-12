@@ -41,16 +41,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Artillery.cs" />
+    <Compile Include="Buildings\ArtilleryBAL.cs" />
     <Compile Include="Barracks.cs" />
     <Compile Include="BuildingFactory.cs" />
     <Compile Include="BasicGame.cs" />
+    <Compile Include="Buildings\BarracksBAL.cs" />
+    <Compile Include="Buildings\CommandCenterBAL.cs" />
+    <Compile Include="Buildings\SatComBAL.cs" />
     <Compile Include="CommandCenter.cs" />
     <Compile Include="GridFactory.cs" />
     <Compile Include="Mine.cs" />
+    <Compile Include="Buildings\MineBAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Buildings\RepairShopBAL.cs" />
     <Compile Include="RepairShop.cs" />
     <Compile Include="SatCom.cs" />
     <Compile Include="ShieldStation.cs" />
+    <Compile Include="Buildings\ShieldStationBAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
