@@ -23,7 +23,7 @@ namespace BusinessEntities
             //        SetupBlock(Structure[i]);
             //}
         }
-        // Matt Comment 2
+        // Matt Comment 2-3
         // Sean Comment
         public abstract void Build(string name);
 
