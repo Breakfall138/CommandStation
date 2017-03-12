@@ -14,7 +14,6 @@ namespace BusinessLayer.Buildings
             Barracks bar = new Barracks();
             bar.cost = new List<IResource>();
             bar.cost.Add(new Ore(100));
-            bar.ID = new Guid();
             bar.name = name;
             bar.isDestroyed = false;
             bar.level = 1;

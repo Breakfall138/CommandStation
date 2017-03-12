@@ -14,7 +14,6 @@ namespace BusinessLayer
             Artillery art = new Artillery();
             art.cost = new List<IResource>();
             art.cost.Add(new Ore(200));
-            art.ID = new Guid();
             art.name = name;
             art.isDestroyed = false;
             art.level = 1;
