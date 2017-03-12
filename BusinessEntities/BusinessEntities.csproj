@@ -42,6 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Building.cs" />
+    <Compile Include="Buildings\Artillery.cs" />
+    <Compile Include="Buildings\Barracks.cs" />
+    <Compile Include="Buildings\CommandCenter.cs" />
+    <Compile Include="Buildings\Mine.cs" />
+    <Compile Include="Buildings\RepairShop.cs" />
+    <Compile Include="Buildings\SatCom.cs" />
+    <Compile Include="Buildings\ShieldStation.cs" />
     <Compile Include="DefenseGrid.cs" />
     <Compile Include="Gold.cs" />
     <Compile Include="GoldVein.cs" />

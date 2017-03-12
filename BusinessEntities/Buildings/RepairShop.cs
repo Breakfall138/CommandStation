@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BusinessEntities;
 
-namespace BusinessLayer
+namespace BusinessEntities
 {
     public class RepairShop : Building
     {
@@ -13,7 +12,5 @@ namespace BusinessLayer
         int soliersManned { get; set; }
         //stores the value of the number of maximum soldiers in the building
         int maxSoldiersManned { get; set; }
-
-
     }
 }

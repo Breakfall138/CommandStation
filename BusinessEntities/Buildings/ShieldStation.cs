@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BusinessEntities;
 
-namespace BusinessLayer
+namespace BusinessEntities
 {
     public class ShieldStation : Building
     {
@@ -13,6 +12,5 @@ namespace BusinessLayer
         public int maxBlocksProtected { get; set; }
         //holds a list of coordinates to the protected blocks. 
         public List<Coordinates> blocksProtected = new List<Coordinates>(); 
-
     }
 }
