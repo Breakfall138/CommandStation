@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Building.cs" />
+    <Compile Include="Buildings\Building.cs" />
     <Compile Include="Buildings\Artillery.cs" />
     <Compile Include="Buildings\Barracks.cs" />
     <Compile Include="Buildings\CommandCenter.cs" />
@@ -49,11 +49,11 @@
     <Compile Include="Buildings\RepairShop.cs" />
     <Compile Include="Buildings\SatCom.cs" />
     <Compile Include="Buildings\ShieldStation.cs" />
-    <Compile Include="DefenseGrid.cs" />
+    <Compile Include="Grids\DefenseGrid.cs" />
     <Compile Include="Gold.cs" />
     <Compile Include="GoldVein.cs" />
     <Compile Include="Grass.cs" />
-    <Compile Include="Grid.cs" />
+    <Compile Include="Grids\Grid.cs" />
     <Compile Include="IAim.cs" />
     <Compile Include="Block.cs" />
     <Compile Include="Coordinates.cs" />
@@ -62,7 +62,7 @@
     <Compile Include="IResource.cs" />
     <Compile Include="IShoot.cs" />
     <Compile Include="ITarget.cs" />
-    <Compile Include="OffenseGrid.cs" />
+    <Compile Include="Grids\OffenseGrid.cs" />
     <Compile Include="Ore.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
