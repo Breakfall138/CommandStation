@@ -8,9 +8,6 @@ namespace BusinessEntities
 {
    public class DefenseGrid : Grid
     {
-        //public DefenseGrid(int x, int y):base(x,y)
-        //{
-        //}
         public DefenseGrid() : base() { }
     }
 }

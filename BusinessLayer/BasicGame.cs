@@ -40,11 +40,12 @@ namespace BusinessLayer
         }
         public void AddDefenseGrid(Player plyr)
         {
-           // plyr.grids.Add(new DefenseGrid(10, 10));
+           plyr.grids.Add(new GridFactory().Create("DefenseGrid",10, 10) as DefenseGrid);
+
         }
         public void AddOffensiveGrid(Player plyr)
         {
-         //   plyr.grids.Add(new OffenseGrid(10, 10));
+            plyr.grids.Add(new GridFactory().Create("OffenseGrid", 10, 10) as OffenseGrid);
         }
         public void AddStartingBuildings(Player plyr)
         {

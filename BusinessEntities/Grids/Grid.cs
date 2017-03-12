@@ -8,8 +8,8 @@ namespace BusinessEntities
 {
     public abstract class Grid
     {
-        public string name;
-        public Block[,] grid;
+        public string name { get; set; }
+        public Block[,] grid { get; set; }
         //public Block[] grid;
 
         //public Grid(int x, int y)
