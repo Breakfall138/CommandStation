@@ -51,13 +51,12 @@ namespace BusinessLayer
                         CommandCenterBAL cc = new CommandCenterBAL();
                         return cc.Build(name);
                     }
-                default: {
+                default:
+                    {
                         //NEED TO ADD Logging here
-                        throw new Exception("Building Type  incorrect. "); }
+                        throw new Exception("Building Type  incorrect. ");
+                    }
             }
-            
-   
         }
-
     }
 }

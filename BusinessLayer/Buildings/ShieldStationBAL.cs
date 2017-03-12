@@ -14,14 +14,13 @@ namespace BusinessLayer
         {
             ShieldStation ss = new ShieldStation();
             ss.cost = new List<IResource>();
-            ss.cost.Add(new Ore(200));
+            ss.cost.Add(new Ore(300));
             ss.ID = new Guid();
             ss.name = name;
             ss.isDestroyed = false;
             ss.level = 1;
             ss.maxBlocksProtected = 2;
             return ss; 
-
         }
     }
 }

@@ -13,7 +13,9 @@ namespace BusinessLayer.Buildings
         {
             CommandCenter cc = new CommandCenter();
             cc.cost = new List<IResource>();
-            cc.cost.Add( new Ore(200));
+            // TODO: Need to determine actual CC cost
+            cc.cost.Add(new Ore(0));
+            cc.cost.Add(new Gold(0));
             cc.ID = new Guid();
             cc.name = name;
             cc.isDestroyed = false;
