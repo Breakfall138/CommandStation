@@ -14,6 +14,7 @@ namespace BusinessLayer.Buildings
             CommandCenter cc = new CommandCenter();
             cc.cost = new List<IResource>();
             cc.cost.Add( new Ore(200));
+            cc.ID = new Guid();
             cc.name = name;
             cc.isDestroyed = false;
             cc.level = 1;

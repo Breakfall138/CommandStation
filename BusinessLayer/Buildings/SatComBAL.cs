@@ -14,6 +14,7 @@ namespace BusinessLayer.Buildings
             SatCom sc = new SatCom();
             sc.cost = new List<IResource>();
             sc.cost.Add(new Ore(200));
+            sc.ID = new Guid();
             sc.name = name;
             sc.isDestroyed = false;
             sc.level = 1;

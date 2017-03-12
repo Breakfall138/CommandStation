@@ -14,7 +14,8 @@ namespace BusinessLayer
             RepairShop rs = new RepairShop();
             rs.cost = new List<IResource>();
             rs.cost.Add(new Ore(200));
-            rs.name = "Repair Shop";
+            rs.ID = new Guid();
+            rs.name = name;
             rs.isDestroyed = false;
             rs.level = 1;
             return rs; 

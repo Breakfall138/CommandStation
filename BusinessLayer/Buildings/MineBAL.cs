@@ -14,6 +14,7 @@ namespace BusinessLayer
             Mine mine = new Mine();
             mine.cost = new List<IResource>();
             mine.cost.Add( new Ore(200));
+            mine.ID = new Guid();
             mine.name = name;
             mine.isDestroyed = false;
             mine.level = 1;
