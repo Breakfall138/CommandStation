@@ -41,7 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buildings\ArtilleryBAL.cs" />
-    <Compile Include="BuildingFactory.cs" />
+    <Compile Include="Buildings\BuildingFactory.cs" />
     <Compile Include="BasicGame.cs" />
     <Compile Include="Buildings\BarracksBAL.cs" />
     <Compile Include="Buildings\CommandCenterBAL.cs" />
