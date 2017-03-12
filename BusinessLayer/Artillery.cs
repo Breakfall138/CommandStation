@@ -9,7 +9,9 @@ namespace BusinessLayer
 {
     public class Artillery : Building
     {
+        //stores the number of shots that are remaining 
         public int numShots;
+        //stores the maximum number of shots
         public int maxShots; 
 
         public override void Build(string name)

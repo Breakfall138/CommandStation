@@ -9,7 +9,8 @@ namespace BusinessLayer
 {
     public class Barracks : Building
     {
-        int maxPeople { get; set; } 
+        //stores the number of people that are added
+        int numPeople { get; set; } 
 
         public Barracks()
         {
@@ -23,7 +24,7 @@ namespace BusinessLayer
             base.name = "Barracks";
             base.isDestroyed = false;
             base.level = 1;
-            maxPeople = 2;
+            numPeople = 2;
             
         }
 

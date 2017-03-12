@@ -9,16 +9,17 @@ namespace BusinessLayer
 {
     class RepairShop : Building
     {
+        //stores the value of the number of current soldiers in the building
+        int soliersManned { get; set; }
+        //stores the value of the number of maximum soldiers in the building
+        int maxSoldiersManned { get; set; }
 
         public override void Build(string name)
         {
-            //base.Structure = area;
-            //base.cost = new Ore(200);
-            //base.name = "Artillery";
-            //base.isDestroyed = false;
-            //base.level = 1;
-            //numShots = 2;
-            //maxShots = 2;
+            base.cost = new Ore(200);
+            base.name = "Repair Shop";
+            base.isDestroyed = false;
+            base.level = 1;
         }
     }
 }
