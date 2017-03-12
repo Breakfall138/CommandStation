@@ -50,26 +50,27 @@
     <Compile Include="Buildings\SatCom.cs" />
     <Compile Include="Buildings\ShieldStation.cs" />
     <Compile Include="Grids\DefenseGrid.cs" />
-    <Compile Include="Gold.cs" />
-    <Compile Include="GoldVein.cs" />
-    <Compile Include="Grass.cs" />
+    <Compile Include="Resources\Gold.cs" />
+    <Compile Include="Terrian\GoldVein.cs" />
+    <Compile Include="Terrian\Grass.cs" />
     <Compile Include="Grids\Grid.cs" />
     <Compile Include="IAim.cs" />
-    <Compile Include="Block.cs" />
+    <Compile Include="Grids\Block.cs" />
     <Compile Include="Coordinates.cs" />
     <Compile Include="IDamage.cs" />
     <Compile Include="IPlayer.cs" />
-    <Compile Include="IResource.cs" />
+    <Compile Include="Resources\IResource.cs" />
     <Compile Include="IShoot.cs" />
     <Compile Include="ITarget.cs" />
     <Compile Include="Grids\OffenseGrid.cs" />
-    <Compile Include="Ore.cs" />
+    <Compile Include="Resources\Ore.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StorePile.cs" />
-    <Compile Include="Terrain.cs" />
-    <Compile Include="Trees.cs" />
+    <Compile Include="Terrian\StorePile.cs" />
+    <Compile Include="Terrian\Terrain.cs" />
+    <Compile Include="Terrian\Trees.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
