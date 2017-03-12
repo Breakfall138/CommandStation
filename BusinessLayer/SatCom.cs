@@ -16,11 +16,11 @@ namespace BusinessLayer
         //stores the number of blocks that can be revealed.
         int numBlocksRevealed { get; set; }
 
-
         public override void Build(string name)
         {
             base.cost = new List<IResource>();
-            base.cost.Add(new Ore(200));
+            base.cost.Add(new Ore(150));
+            base.ID = new Guid();
             base.name = name;
             base.isDestroyed = false;
             base.level = 1;

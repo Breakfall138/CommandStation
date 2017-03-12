@@ -14,20 +14,17 @@ namespace BusinessLayer
 
         public Barracks()
         {
-          
-            
         }
 
         public override void Build(string name)
         {
             base.cost = new List<IResource>();
-            base.cost = new Ore(200);
-            base.name = "Barracks";
+            base.cost.Add(new Ore(100));
+            base.ID = new Guid();
+            base.name = name;
             base.isDestroyed = false;
             base.level = 1;
             numPeople = 2;
-            
         }
-
     }
 }

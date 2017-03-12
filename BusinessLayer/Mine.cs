@@ -22,6 +22,7 @@ namespace BusinessLayer
         {
             base.cost = new List<IResource>();
             base.cost.Add(new Ore(0));
+
             base.name = name;
             base.isDestroyed = false;
             base.level = 1;

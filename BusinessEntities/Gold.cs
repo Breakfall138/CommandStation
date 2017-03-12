@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BusinessEntities
 {
-    class Gold : IResource
+    public class Gold : IResource
     {
         public int value { get; set; }
         public string name { get { return "Gold"; } }
