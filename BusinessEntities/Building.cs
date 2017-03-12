@@ -14,7 +14,7 @@ namespace BusinessEntities
         // stores the name of the building
         public string name { get;  set; }
         //stores the amount it costs to purchase the building
-        public IResource cost { get; set; }
+        public List<IResource> cost { get; set; }
         //stores the current level of the building
         public int level { get; set; }
 
