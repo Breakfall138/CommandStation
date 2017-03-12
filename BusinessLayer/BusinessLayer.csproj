@@ -51,6 +51,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Buildings\RepairShopBAL.cs" />
     <Compile Include="Buildings\ShieldStationBAL.cs" />
+    <Compile Include="Sprites\ArtillarySpriteBAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BusinessEntities\BusinessEntities.csproj">
